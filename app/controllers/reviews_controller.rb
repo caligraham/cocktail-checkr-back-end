@@ -8,10 +8,15 @@ class ReviewsController < ApplicationController
         end    
     end
 
+    def index
+        reviews = Cocktail.find_by(id: params[:cocktail_id]).reviews
+        render json: reviews
+    end
+
     private
 
     def review_params
         params.require(:review).permit(:title, :content, :rating)
     end
-    
+
 end
