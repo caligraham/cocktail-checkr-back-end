@@ -1,27 +1,43 @@
-# README
+# Welcome to Cocktail CheckR!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Click here for front-end repository!](https://github.com/killacalical/cocktail-checkr-front-end)
 
-Things you may want to cover:
+Do you love cocktails!? Or maybe you have a strong dislike for the mint in a Mojito? Have you always wanted to share these thoughts with the world wide web? Well, Cocktail CheckR is the place for you!
 
-* Ruby version
+I made this project because I spent 10+ years in the service industry slangin' dranks! I wanted to create a project on a topic that I love and cherish, and showcase some of my favorite cocktails.
 
-* System dependencies
+----
 
-* Configuration
+## Installation & Usage
 
-* Database creation
+ - Clone both repo's (front-end & back-end)
+ - In the back-end directory:
+        - Execute bundle install
+        - Run rails db:create
+        - Run rails db:migrate
+        - Run rails db:seed to seed the database, and access the cocktails.
+        - Start server with rails s
+ - In the front-end directory:
+        - Execute open index.html
+ - In the browser you can click on a cocktail of your choice to view other reviews, and click the review button to leave a review for yourself.
 
-* Database initialization
+----
 
-* How to run the test suite
+## Demo Video
 
-* Services (job queues, cache servers, search engines, etc.)
+[Watch it here!]
 
-* Deployment instructions
+----
 
-* ...
-# cocktail-checkr-back-end
+## Built With!
 
-Link to back-end: https://github.com/killacalical/cocktail-checkr-back-end
+ - Ruby version 2.6.1
+ - Rails version 6.1.3
+
+ ----
+
+ ## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
